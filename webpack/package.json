@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "css-loader": "^0.26.2",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "start": "rm -rf dist/ && mkdir -p dist && node app.js"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^2.0.0",
+    "moment": "^2.17.1"
+  }
+}
