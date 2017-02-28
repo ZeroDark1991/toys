@@ -22,7 +22,7 @@ let config = {
 		new ExtractTextPlugin('styles.css'),
 		new webpack.optimize.CommonsChunkPlugin({
 			name: 'vendor',
-			minChunks: function(module) {
+			minChunks: function(module， count) {
 				return module.context && module.context.indexOf('node_modules') !== -1
 			}
 		}),
